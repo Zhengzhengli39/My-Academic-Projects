@@ -34,12 +34,11 @@ This repository contains a series of academic projects that demonstrate hands-on
 
 ## 🚀 How to Navigate
 
-1.  Navigate to the directory of the project you're interested in (e.g., `./PenTest-Vulnerability-Analysis/`).
+1.  Navigate to the directory of the project you're interested in.
 2.  Each project folder contains:
     *   The main report or proposal (`.docx`, `.pdf`)
     *   Presentation slides (`.pptx`)
     *   Any supplementary scripts or files
-    *   A brief `README` explaining the project context (if applicable).
 
 ## ⚠️ Disclaimer
 
