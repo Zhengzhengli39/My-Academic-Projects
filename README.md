@@ -14,20 +14,23 @@ This repository contains a series of academic projects that demonstrate hands-on
 | Project Category | Description | Key Skills Demonstrated |
 | :--- | :--- | :--- |
 | **[Wi-Fi 6E Campus Upgrade Proposal](./Wi-Fi-6E-Upgrade-Proposal/)** | A comprehensive plan for a full-campus wireless network modernization, including vendor comparison, RF design, and security architecture. | `Network Design` `RF Planning` `Vendor Evaluation` `Budgeting` `WPA3` |
-| **[Penetration Test & Vulnerability Analysis](./PenTest-Vulnerability-Analysis/)** | A controlled grey-box penetration test and vulnerability assessment of a lab environment, culminating in a full report and presentation. | `Penetration Testing` `Nessus` `Nmap` `Metasploit` `OWASP` `Vulnerability Assessment` |
+| **[Comprehensive Security Lab](./CYBRSECPROJECT/)** | **A multi-faceted security project** containing a full penetration test, vulnerability assessment, and system hardening documentation for a controlled lab environment. Includes detailed attack narratives, evidence screenshots, and Nessus reports. | `Penetration Testing` `Nessus` `Nmap` `Metasploit` `OWASP` `Vulnerability Assessment` `System Hardening` `Windows Security` `Linux Security` |
+| **[PowerShell Automation](./PowerShell-Script/)** | A practical PowerShell script for automating common administrative tasks on network workstations, such as retrieving system info, restarting services, and creating user accounts. | `PowerShell` `Automation` `System Administration` `Windows Management` `WMI` |
 | **[Security Fundamentals Assignments](./Security-Fundamentals/)** | Assignments covering SIEM solutions (AlienVault OSSIM) and quantitative risk assessment methodologies. | `SIEM` `Risk Assessment` `AlienVault` `CVSS` |
-| **[System Hardening & Documentation](./System-Documentation/)** | Documentation on securing various operating systems (Windows Server, Fedora, Ubuntu, Windows 10) and corresponding vulnerability reports. | `System Hardening` `Windows Security` `Linux Security` `NIST` |
 
 ## 🛠️ Technical Skills & Tools
 
 **Offensive Security:**
-`Nmap` `Nessus` `Metasploit` `CrackMapExec` `Responder` `Evil-WinRM` `Impacket`
+`Nmap` `Nessus` `Metasploit` `CrackMapExec` `Responder` `Evil-WinRM` `Impacket` `Ettercap`
 
 **Network Engineering:**
 `Wi-Fi 6E` `VLANs` `RF Planning` `Ubiquiti UniFi` `Cisco` `Aruba`
 
 **Defensive Security & Monitoring:**
-`WPA3-Enterprise` `RADIUS` `SIEM (OSSIM)` `Firewall Policies` `SELinux`
+`WPA3-Enterprise` `RADIUS` `SIEM (OSSIM)` `Firewall Policies` `SELinux` `System Hardening`
+
+**Scripting & Automation:**
+`PowerShell` `WMI` `Active Directory` `Bash`
 
 **Platforms & OS:**
 `Windows Server` `Windows 10` `Ubuntu` `Fedora` `Kali Linux`
@@ -35,10 +38,13 @@ This repository contains a series of academic projects that demonstrate hands-on
 ## 🚀 How to Navigate
 
 1.  Navigate to the directory of the project you're interested in.
-2.  Each project folder contains:
-    *   The main report or proposal (`.docx`, `.pdf`)
-    *   Presentation slides (`.pptx`)
-    *   Any supplementary scripts or files
+2.  Key project structures:
+    *   **`/CYBRSECPROJECT/`**: Contains the main reports for the security lab.
+        *   **`/Attack Narrative/`**: Detailed step-by-step attack procedures and **screenshots of evidence** for each target system and network attack.
+        *   **`/Nmap Screenshots/`**: Results of service enumeration scans.
+        *   **`/Vulnerability Assessment/`**: Nessus scan reports and the summary vulnerability assessment.
+    *   **`/PowerShell-Script/`**: Contains the script file (`*.ps1`) and its documentation.
+    *   Other project folders contain their main reports, presentations, and supplementary files.
 
 ## ⚠️ Disclaimer
 
